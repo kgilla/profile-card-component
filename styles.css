@@ -47,7 +47,7 @@ body {
 
 .header-image-container {
   position: absolute;
-  top: 90px;
+  top: 85px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -79,7 +79,7 @@ body {
 .age {
   margin-left: 8px;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--darkGrayishBlue);
 }
 .address {
