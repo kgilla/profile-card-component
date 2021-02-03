@@ -39,7 +39,7 @@ body {
 
 .card-header {
   position: relative;
-  height: 100px;
+  height: 140px;
   display: flex;
   justify-content: center;
   background-image: url("./images/bg-pattern-card.svg");
@@ -47,12 +47,12 @@ body {
 
 .header-image-container {
   position: absolute;
-  top: 55px;
+  top: 90px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   border: 5px solid #fff;
   border-radius: 100%;
   overflow: hidden;
@@ -72,15 +72,15 @@ body {
   padding: 16px 0;
   font-size: 1rem;
   font-weight: 600;
-  color: #666;
+  color: var(--darkDesaturatedBlue);
   text-align: center;
 }
 
 .age {
   margin-left: 8px;
   font-size: 1rem;
-  font-weight: 400;
-  color: var(--darkGray);
+  font-weight: 700;
+  color: var(--darkGrayishBlue);
 }
 .address {
   margin: 0;
@@ -96,7 +96,7 @@ body {
   align-items: center;
   margin-top: 20px;
   padding: 8px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
 }
 
 .footer-item {
@@ -111,16 +111,16 @@ body {
   margin: 0;
   margin-bottom: 4px;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
-  color: #444;
+  color: var(--darkDesaturatedBlue);
 }
 
 .footer-item-title {
   margin: 0;
   padding: 0;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--darkGray);
 }
 
